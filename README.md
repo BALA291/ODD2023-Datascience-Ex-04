@@ -32,7 +32,7 @@ Find the pairwise correlation of all columns in the dataframe.corr()
 Save the final data set into the file
 
 # CODE :
-Diabetes.csv
+# Diabetes.csv
 ```
 DEVELOPED BY:BALAMURUGAN B
 REFERENCE NUMBER:212222230016
@@ -97,3 +97,32 @@ sns.scatterplot(x = 'Row ID',y='Sales',data = df)
 sns.heatmap(df.corr(),annot = True)
 ```
 ## OUTPUT :
+## Diabetes.csv
+
+BEFORE DATA CLEANING:
+![4a1](https://github.com/BALA291/ODD2023-Datascience-Ex-04/assets/120717501/ff5fdc6e-d1bd-42e9-9f58-112640757d74)
+
+AFTER DATA CLEANING:
+![4a2](https://github.com/BALA291/ODD2023-Datascience-Ex-04/assets/120717501/835b28af-56d7-46e6-9876-78b7208361e3)
+![4a3](https://github.com/BALA291/ODD2023-Datascience-Ex-04/assets/120717501/f16267a6-82c3-4cf9-a092-b675fcfddf84)
+![4a4](https://github.com/BALA291/ODD2023-Datascience-Ex-04/assets/120717501/b0b847e3-6cc8-4821-9b21-cdd44747afe4)
+![4a5](https://github.com/BALA291/ODD2023-Datascience-Ex-04/assets/120717501/9f765860-7259-4624-b91d-5534b03ff415)
+
+HEATMAP:
+![4a6](https://github.com/BALA291/ODD2023-Datascience-Ex-04/assets/120717501/648ffbb3-e133-4340-9e6a-db722622df46)
+
+## Superstore.csv
+
+BEFORE DATA CLEANING:
+![4b1](https://github.com/BALA291/ODD2023-Datascience-Ex-04/assets/120717501/748ec1b4-0a3b-4660-b2c8-353911bf12fb)
+
+AFTER DATA CLEANING:
+![4b2](https://github.com/BALA291/ODD2023-Datascience-Ex-04/assets/120717501/d79009bb-3fec-4652-9e71-bef52b6ac994)
+![4b3](https://github.com/BALA291/ODD2023-Datascience-Ex-04/assets/120717501/b6cf9190-960e-434b-b7e1-0c978007a7bc)
+![4b4](https://github.com/BALA291/ODD2023-Datascience-Ex-04/assets/120717501/5abcf4bc-0af1-462f-9a28-1d4c8d62a124)
+
+HEATMAP:
+![4b5](https://github.com/BALA291/ODD2023-Datascience-Ex-04/assets/120717501/07ab98aa-defb-4e04-99b7-d9eb91414fc8)
+
+## RESULT
+Thus we have read the given data and performed the multivariate analysis with different types of plots.
